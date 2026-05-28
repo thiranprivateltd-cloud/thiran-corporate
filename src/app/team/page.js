@@ -20,7 +20,7 @@ export default function Team() {
     },
     {
       name: "Dharshan S",
-      role: t('team.roles.cto'),
+      role: t('team.roles.coo'),
       subtext: "D Spark Web Solutions Partner",
       badge: "Co-Founder",
       linkedin: "https://www.linkedin.com/in/dharshan-s-32b7b332a/",
