@@ -40,7 +40,7 @@ export default function Team() {
 
   // Advisors & Mentors array
   const advisors = [
-    { name: "Sasi K", role: "Legal Mentor", dept: "Legal & Compliance" }
+    { name: "Sasi", role: "Legal Mentor", dept: "Legal & Compliance" }
   ];
 
   // 16 Volunteers list
@@ -218,11 +218,11 @@ export default function Team() {
           </div>
         </div>
 
-        {/* 2. TEAM MEMBERS / VOLUNTEERS SECTION */}
+        {/* 2. CORE CONTRIBUTORS SECTION */}
         <div>
           <h2 className="font-heading text-xl font-black uppercase text-accent tracking-widest text-center mb-12 flex items-center justify-center space-x-3">
             <span className="w-8 h-px bg-accent/40" />
-            <span>Volunteers & Builders</span>
+            <span>Core Contributors</span>
             <span className="w-8 h-px bg-accent/40" />
           </h2>
 
