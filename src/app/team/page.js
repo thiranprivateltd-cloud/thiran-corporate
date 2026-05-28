@@ -40,7 +40,7 @@ export default function Team() {
 
   // Advisors & Mentors array
   const advisors = [
-    { name: "Sasi", role: "Legal Mentor", dept: "Legal & Compliance" }
+    { name: "Sasi K", role: "Legal Mentor", dept: "Legal & Compliance" }
   ];
 
   // 16 Volunteers list
