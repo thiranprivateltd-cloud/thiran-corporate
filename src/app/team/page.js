@@ -38,6 +38,11 @@ export default function Team() {
     }
   ];
 
+  // Advisors & Mentors array
+  const advisors = [
+    { name: "Sasi", role: "Legal Mentor", dept: "Legal & Compliance" }
+  ];
+
   // 16 Volunteers list
   const volunteers = [
     { name: "Lohidharani G S", role: "HR Admin, Student Community Manager", dept: "HR & Community" },
@@ -169,6 +174,45 @@ export default function Team() {
                     </a>
                   )}
                 </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
+        {/* 1.5 ADVISORS & MENTORS SECTION */}
+        <div className="mb-28">
+          <h2 className="font-heading text-xl font-black uppercase text-[#1D9E75] tracking-widest text-center mb-12 flex items-center justify-center space-x-3">
+            <span className="w-8 h-px bg-[#1D9E75]/40" />
+            <span>Advisors & Mentors</span>
+            <span className="w-8 h-px bg-[#1D9E75]/40" />
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {advisors.map((advisor, idx) => (
+              <motion.div
+                key={advisor.name}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: idx * 0.1 }}
+                className="glass-card rounded-xl p-6 border border-white/5 bg-[#0C0C0C]/60 flex flex-col justify-between hover:border-[#1D9E75]/25 transition-all group"
+              >
+                <div>
+                  <div className="flex justify-between items-start mb-4">
+                    <span className="text-[8px] font-heading font-bold text-gray-500 uppercase tracking-wider bg-white/5 px-2 py-0.5 rounded border border-white/5">
+                      {advisor.dept}
+                    </span>
+                    <Shield className="w-3.5 h-3.5 text-gray-600 group-hover:text-[#1D9E75] transition-colors" />
+                  </div>
+                  <h3 className="font-heading text-base font-black text-white uppercase group-hover:text-[#1D9E75] transition-all">
+                    {advisor.name}
+                  </h3>
+                  <p className="font-body text-xs text-gray-400 mt-2 leading-snug">
+                    {advisor.role}
+                  </p>
+                </div>
+                
+                <div className="h-[1px] w-6 bg-[#1D9E75]/20 group-hover:w-12 transition-all mt-4" />
               </motion.div>
             ))}
           </div>
