@@ -146,7 +146,7 @@ export const translations = {
       subtitle: "19 dreamers, builders, and launchers — united by one mission.",
       roles: {
         ceo: "Founder & CEO",
-        cto: "Co-founder & CTO",
+        coo: "Co-founder & COO",
         pm: "Project Manager"
       },
       bottomText: "Dream · Build · Launch 🔴"
@@ -390,7 +390,7 @@ export const translations = {
       subtitle: "19 கனவு காண்பவர்கள், உருவாக்குபவர்கள் மற்றும் தொடங்குபவர்கள் — ஒரு இலக்கின் கீழ் இணைந்தவர்கள்.",
       roles: {
         ceo: "நிறுவனர் & தலைமை நிர்வாக அதிகாரி (CEO)",
-        cto: "இணை நிறுவனர் & CTO",
+        coo: "இணை நிறுவனர் & COO",
         pm: "திட்ட மேலாளர் (Project Manager)"
       },
       bottomText: "கனவு · உருவாக்கம் · தொடக்கம் 🔴"
@@ -634,7 +634,7 @@ export const translations = {
       subtitle: "19 स्वप्नद्रष्टा, निर्माता और प्रवर्तक — एक लक्ष्य के तहत एकजुट।",
       roles: {
         ceo: "संस्थापक और सीईओ",
-        cto: "सह-संस्थापक और CTO",
+        coo: "सह-संस्थापक और COO",
         pm: "परियोजना प्रबंधक (Project Manager)"
       },
       bottomText: "सपना · निर्माण · शुभारंभ 🔴"
