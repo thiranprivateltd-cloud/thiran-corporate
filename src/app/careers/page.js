@@ -26,7 +26,12 @@ export default function Careers() {
     { title: "Frontend Developer", dept: "Engineering", desc: "Build cinematic user interfaces and robust React frameworks for LaunchLab and NextStep platforms." },
     { title: "UI/UX Designer", dept: "Design", desc: "Craft stunning high-fidelity glassmorphic visual systems, interactive wireframes, and premium assets." },
     { title: "AI/ML Developer", dept: "Engineering", desc: "Develop psychometric algorithms and regional language models to guide student paths in NextStep." },
-    { title: "Content & Communication Writer", dept: "Marketing & PR", desc: "Write engaging copies, educational resources, and multi-language announcements." }
+    { title: "Content & Communication Writer", dept: "Marketing & PR", desc: "Write engaging copies, educational resources, and multi-language announcements." },
+    { title: "Client Acquisition / Partnerships Lead", dept: "Sales & Partnerships", desc: "Drive growth by building strategic partnerships and expanding our client base across the education sector." },
+    { title: "Product Operations Lead", dept: "Operations", desc: "Ensure smooth delivery and operational excellence for our products from development to deployment." },
+    { title: "Data & Analytics Engineer", dept: "Engineering", desc: "Build data pipelines and dashboards to extract actionable insights from student performance and engagement metrics." },
+    { title: "Community & Campus Lead", dept: "Community", desc: "Foster and grow a vibrant community of students and educators across college campuses." },
+    { title: "Research & Career Mapping Specialist", dept: "Research", desc: "Conduct in-depth research to map emerging career paths and build comprehensive guides for student counseling." }
   ];
 
   const handleSubmit = async (e) => {
